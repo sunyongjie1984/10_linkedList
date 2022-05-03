@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		13160DDD2821216600634997 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13160DDC2821216600634997 /* main.cpp */; };
+		13160DE52821218500634997 /* LinkedLists.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 13160DE32821218500634997 /* LinkedLists.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,8 @@
 
 /* Begin PBXFileReference section */
 		13160DD92821216600634997 /* 10_linkedList */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 10_linkedList; sourceTree = BUILT_PRODUCTS_DIR; };
-		13160DDC2821216600634997 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		13160DE32821218500634997 /* LinkedLists.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LinkedLists.cpp; sourceTree = "<group>"; };
+		13160DE42821218500634997 /* LinkedLists.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkedLists.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +58,8 @@
 		13160DDB2821216600634997 /* 10_linkedList */ = {
 			isa = PBXGroup;
 			children = (
-				13160DDC2821216600634997 /* main.cpp */,
+				13160DE32821218500634997 /* LinkedLists.cpp */,
+				13160DE42821218500634997 /* LinkedLists.h */,
 			);
 			path = 10_linkedList;
 			sourceTree = "<group>";
@@ -119,7 +121,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13160DDD2821216600634997 /* main.cpp in Sources */,
+				13160DE52821218500634997 /* LinkedLists.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
